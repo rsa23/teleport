@@ -12,8 +12,8 @@
 - `customer_name`: string
 - `customer_slug`: string
 
-## Example Request
-GET /next-tracking-number?origin_country_id=PH&destination_country_id=MY&weight=1.234&created_at=2025-06-26T14:30:00%2B08:00&customer_id=de619854-b59b-425e-9db4-943979e1bd49&customer_name=RedBox Logistics&customer_slug=redbox-logistics
+## Example Request 
+GET https://tracking-num-api-139485818756.asia-southeast1.run.app/next-tracking-number?origin_country_id=PH&destination_country_id=MY&weight=1.234&created_at=2025-06-26T14:30:00%2B08:00&customer_id=de619854-b59b-425e-9db4-943979e1bd49&customer_name=RedBox%20Logistics&customer_slug=redbox-logistics
 
 ## Response
 ```json
